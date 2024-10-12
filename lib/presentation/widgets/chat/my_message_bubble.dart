@@ -5,7 +5,6 @@ class MyMessageBubble extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final colors = Theme.of(context).colorScheme;
 
     return Column(
@@ -17,7 +16,7 @@ class MyMessageBubble extends StatelessWidget {
           child: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
-              'Laboris duis dolore',
+              'WENA',
               style: TextStyle(color: Colors.white),
             ),
           ),
